@@ -11,4 +11,12 @@
  * @brief Entry point for the memory demonstration.
  * @return 0 to indicate success.
  */
-int main();
+int main() {
+    int stackInt = 42; // Stack memory allocation
+    int* heapInt = new int(24); // Heap memory allocation
+    int *ptrToStack = &stackInt; // Pointer to stack variable
+    int &refToStack = stackInt; // Reference to stack variable
+
+
+}
+
