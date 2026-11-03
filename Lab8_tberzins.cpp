@@ -27,6 +27,8 @@ int main() {
     cout << "Pointer to Stack Variable (ptrToStack): " << endl << "Value: " << *ptrToStack << endl << "Address: " << ptrToStack << endl << endl;
     cout << "Reference to Stack Variable (refToStack): " << endl << "Value: " << refToStack << endl << "Address: " << &refToStack << endl << endl;
 
+    delete heapInt; // Free heap memory
+
 
 
 }
